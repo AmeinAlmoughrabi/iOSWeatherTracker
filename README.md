@@ -1,4 +1,4 @@
-# iOS Weather Tracker
+# iOSWeatherTracker
 Weather app that demonstrates skills in Swift, SwiftUI, and clean architecture. The app should allow users to search for a city, display its weather on the home screen, and persist the selected city across launches.
 
 ## Project Overview
@@ -186,3 +186,16 @@ To restore the last selected city on app launch:
 
 ## Conclusion
 This project demonstrates a complete weather tracking app built with modern SwiftUI principles. By addressing edge cases, optimizing UI and API integration, and maintaining clean architecture, this app provides a robust foundation for further enhancements.
+
+
+## Notes:
+There were a few deviations from the FIGMA, as there were inaccuracies in the design vs what xcode provided. 
+
+Examples:
+Degree Symbol
+Font Sizes Innacurate
+In-App Icons
+
+## Some other notes to consider:
+## The Figma and instructions were all defaulted to fahrenheit, so no desire or change to Celsius was included in the code for space optimization, however temp_f can be changed to temp_c depending on user desire in the api call or manually by doing the math inline based on a bool value.
+## Modifying the search feature to make more sense for the user
